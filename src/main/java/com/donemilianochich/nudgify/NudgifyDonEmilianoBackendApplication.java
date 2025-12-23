@@ -1,6 +1,5 @@
 package com.donemilianochich.nudgify;
 
-import org.springframework.aop.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
