@@ -1,13 +1,12 @@
-package com.donemilianochich.nudgify;
+package com.donemilianochich.nudgify.controller.available;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloWorld {
-
+public class AliveController {
   @GetMapping("/")
-  public String home() {
-    return "Hello World!";
+  public String alive() {
+    return "Nudgify is running";
   }
 }
